@@ -1,0 +1,16 @@
+
+TESTING INSTRUCTIONS:
+
+——— TESTING YOUR ALU AND REGFILE ——-
+To run the tests we provided you, type './run-sanity-test.sh' or './run-all-tests.sh' from your project folder.
+This will copy your alu.circ and regfile.circ into the 'tests' folder and then run the tests.
+
+To see what happened during a test, you can go to tests and open the .circ files.
+These are harnesses that are modified to have testing inputs in them. 
+You can tick the clock and see the outputs of your ALU, and compare them to what you would expect.
+
+You can also write your own tests for the ALU. In your root project folder, run 'python make_alu_test.py' to
+create your own tests. The program will walk you through all of the desired inputs/outputs of the circuit, 
+and will give you instructions on how to add this with your other tests. Once you have followed these 
+instructions, you will be given further instructions on how to save these inputs into the logisim test
+circuit and the script to run the tests. After you do this, you can run it with './run-personal-tests.sh'.
